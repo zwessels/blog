@@ -1,5 +1,5 @@
 baseURL = "http://www.example.com"
-title = "Minimo"
+title = "Zak Wessels"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""
 
@@ -8,13 +8,14 @@ theme = "minimo"
 disqusShortname = ""
 googleAnalytics = ""
 
-Paginate = 5
+Paginate = 50
 preserveTaxonomyNames = true
 
 enableRobotsTXT = true # generate robots.txt
 
 # Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
 pygmentsCodefences = true
+pygmentsStyle = "dracula"
 
 enableEmoji = true
 
@@ -22,7 +23,7 @@ enableEmoji = true
 defaultContentLanguage = "en"
 
 [params.info]
-description = "Minimalist theme for Hugo"
+#description = "Minimalist theme for Hugo"
 title404 = "Nothing's here!"
 
 [params.assets]
@@ -33,22 +34,22 @@ gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.copyright]
 prefix = ""
-holder = "MunifTanjim"
-startYear = "2017"
+holder = "Zak Wessels"
+startYear = "2019"
 suffix = ""
 
 [params.settings]
 # date & time format: https://golang.org/pkg/time/
-dateFormat = "2006, Jan 02"
+dateFormat = "2006, January 02"
 listDateFormat = "2006, Jan 02"
 archiveDateFormat = "Jan 02"
 hideEntryNavigation = ["page"] # boolean / array of sections
 hideEntryMeta = ["page"] # boolean / array of sections
-showReadingTime = true
+showReadingTime = false
 showLastmod = true
-taxonomyCloudShuffle = true
-accentColor = "#ffcd00"
-hideMainMenu = false
+taxonomyCloudShuffle = false
+accentColor = "#342396"
+hideMainMenu = true
 rtl = false
 
 [params.sidebar]
@@ -73,17 +74,10 @@ page = "" # Twitter page username
 titleSeparator = "•"
 
 [params.social]
-codepen = "MunifTanjim"
 email = "contact@example.com"
-facebook = "MunifTanjim"
 github = "MunifTanjim"
-gitlab = "MunifTanjim"
-instagram = "MunifTanjim"
 linkedin = "muniftanjim"
 twitter = "MunifTanjim"
-telegram = "MunifTanjim"
-google_scholar = "qc6CJjYAAAAJ"
-youtube = "UCT-U0rNerYxItGcuoPX-WYA"
 
 [params.comments]
 enable = false
@@ -126,12 +120,6 @@ tag = "tags"
 
 [permalinks]
 page = "/:slug/"
-
-[[menu.main]]
-name = "Repo"
-weight = -10
-identifier = "repository"
-url = "https://github.com/MunifTanjim/minimo"
 
 [blackfriday]
 hrefTargetBlank = true

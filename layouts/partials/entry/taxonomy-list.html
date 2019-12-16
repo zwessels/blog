@@ -1,0 +1,19 @@
+{{- $txs := ( $.Scratch.Get "taxonomy" ) -}}
+{{- $tx := ( $txs | singularize ) -}}
+
+{{- $taxonomies := ( index $.Site.Taxonomies $txs ) -}}
+
+<div class='{{ $txs }}'>
+    <!-- Don't want the icon
+    {{- partial "svg/icons" $tx -}}
+    -->
+  <span class='screen-reader-text'>{{ ( ( i18n $tx 2 ) | default $txs ) }}: </span>
+  {{- range $i, $term := ( index $.Params $txs ) -}}
+    {{- if gt $i 0 }}, {{ end -}}
+    {{- with ( index $taxonomies ( $term | anchorize ) ) -}}
+    <a class='{{ $tx }} {{ $term }} button' href='{{ .Page.RelPermalink }}'>
+      {{- .Page.Title -}}
+    </a>
+    {{- end -}}
+  {{- end -}}
+</div>

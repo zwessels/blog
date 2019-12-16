@@ -1,0 +1,79 @@
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+
+<style>
+ :root{--color-accent: {{- .Site.Params.settings.accentColor | default "#ffcd00" -}};}
+
+ .list{
+     color: red;
+ }
+
+ .item-title a {
+     color:black;
+     font-weight: 900;
+     font-size: 2em;
+ }
+
+
+ .button {
+     text-transform:inherit;
+ }
+
+ .button.devtools {
+     background-color: #ce3175;
+     color: #fff!important;
+ }
+
+ .button.network {
+     background-color: #6b5b95;
+     color: #fff!important;
+ }
+
+ .button.lab {
+     background-color: #95dee3;
+     color: #000!important;
+ }
+
+ .button.cli {
+     background-color: #000;
+     color: #fff!important;
+ }
+
+ .button.css {
+     background-color: #bc70a4;
+     color: #fff;
+ }
+
+ .button.git {
+     background-color: #dd4132;
+ }
+
+ .button.go {
+     background-color: #bfd641;
+     color: #000!important;
+ }
+
+ .button.graphql {
+     background-color: white!important;
+     border: 1px solid gray;
+     color: #E10098!important;
+ }
+
+ .button.html {
+     background-color: #f2552c!important;
+ }
+
+ .button.react {
+     background-color: #282c34;
+     color: #61dafb!important;
+ }
+
+ .button.browser {
+     background-color: #5b5ea6;
+     color: #fff!important;
+ }
+</style>
