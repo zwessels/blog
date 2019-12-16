@@ -1,0 +1,26 @@
+<!--
+     If you want to include any custom html just before </head>, put it in this file.
+     Or you can delete these file if you don't need it.
+-->
+<!-- for example, you could insert this custom css, which makes the bigimg not stretch:-->
+<style>
+ #wrapper {
+     height: auto;
+     min-height: 100%;
+ }
+
+ .single-post-container {
+     margin-top: 50px;
+     padding-left: 15px;
+     padding-right: 15px;
+     box-sizing: border-box;
+ }
+
+ .single-post-container.has-sidebar {
+     display: grid;
+     grid-template-columns: 220px auto;
+     grid-column-gap: 45px;
+     grid-template-areas: "sidebar main";
+     max-width: 1200px;
+ }
+</style>
