@@ -1,8 +1,12 @@
-#+title: Text blocks for Ox-hugo tests
-#+hugo_base_dir: ../../.
-#+hugo_section: articles
+#+title: Text blocks for Ox-hugo Org MOde
+#+subtitle: Woot
+#+section: posts
+#+tags[]: devtools 
+#+date: 2019-02-28
+#+draft: true
 
-* Lorem Ipsum
+* Lorem Ipsum Boo
+  
 :PROPERTIES:
 :CUSTOM_ID: lorem-ipsum
 :END:
@@ -13,47 +17,77 @@ ultricies metus. Nulla tempor augue in vestibulum tristique. Phasellus
 volutpat pharetra metus quis suscipit. Morbi maximus sem dolor, id
 accumsan ipsum commodo non.
 
+{{< highlight bash "linenos=false" >}}
+#!/usr/bin/env bash
+
+cd tmp 
+wget https://github.com/adobe-fonts/source-code-pro/archive/2.030R-ro/1.050R-it.zip
+
+if [ ! -d "~/.fonts" ] ; then
+    mkdir ~/.fonts
+fi
+
+if [ ! -d "~/.fonts" ] ; then
+    mkdir ~/.fonts
+fi
+{{< / highlight >}}
+
+{{< highlight java "linenos=false" >}}
+public static void main(String[] args) {
+  try {
+      OutputStream file = new FileOutputStream(new File("C:\\Test.pdf"));
+
+      Document document = new Document();
+      PdfWriter.getInstance(document, file);
+      document.open();
+      document.add(new Paragraph("Hello Kiran"));
+      document.add(new Paragraph(new Date().toString()));
+
+      document.close();
+      file.close();
+
+  } catch (Exception e) {
+
+      e.printStackTrace();
+  }
+}
+{{< / highlight >}}
+
+#+CAPTION: captioned link (image in this case)
+[[https://placekitten.com/200/200#.png]]
+
+#+CAPTION: captioned link (image in this case)
+http://localhost:1313/sample.jpeg
+
 Fusce quam ligula, gravida ac dui venenatis, bibendum commodo
 lorem. Duis id elit turpis. Integer sed diam nibh. Donec tempus
 lacinia odio, a laoreet velit dictum id. Suspendisse efficitur euismod
-purus et porttitor. Aliquam sit amet tellus mauris. Mauris semper
-dignissim nibh, faucibus vestibulum purus varius quis. Suspendisse
-potenti. Cras at ligula sit amet nunc vehicula condimentum quis nec
-est. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices
-posuere cubilia Curae; Donec iaculis, neque sit amet maximus rhoncus,
 nisl tortor convallis ante, ut mollis purus augue ut justo. Praesent
 felis urna, volutpat sit amet posuere dictum, luctus quis nibh. Proin
 et tristique ipsum, in aliquam ante.
 
-Aenean eget ex mauris. Cras ut tempor quam. Curabitur eget nulla
-laoreet, bibendum neque porta, tempus nulla. Ut tellus nisi, semper eu
-ligula pretium, aliquam accumsan dolor. Nunc fermentum cursus arcu eu
-suscipit. Nam dolor tellus, efficitur sed condimentum at, fringilla
-eget nisi. Nulla luctus metus felis. Suspendisse potenti. Cras lacinia
-orci nec dui sodales commodo. Donec tellus arcu, congue porta ultrices
-non, pretium et sapien. Proin mattis risus dignissim feugiat
-tristique. Donec nibh lorem, facilisis id posuere ut, varius ac
-urna. Etiam ultrices dignissim mauris, quis venenatis ex semper ut.
-
-Curabitur id fermentum erat, rhoncus scelerisque est. Sed pulvinar,
-nulla sed sollicitudin scelerisque, ipsum erat sollicitudin dolor, ut
-commodo arcu justo vel libero. Curabitur turpis dolor, fermentum ut
-elit a, vehicula commodo nunc. Sed sit amet blandit nulla, quis
-sodales massa. Donec lobortis, urna vel volutpat ullamcorper, mauris
-est efficitur nulla, et suscipit velit dui at metus. Aliquam id sem
-sed metus tristique scelerisque nec vitae odio. Phasellus a
-pellentesque libero, vel convallis metus. Sed nec fringilla magna, non
-varius ex. Sed interdum eleifend ligula, quis porta enim ultrices
-a. Donec hendrerit diam ac elementum tincidunt.
+#+CAPTION: This is my caption
+#+ATTR_HTML: :class table table-striped table-dark
+| Key | Value                |
+| 1,2 | Jim Butters was here |
 
 Pellentesque eget nisl rhoncus, malesuada justo nec, suscipit
 quam. Nam sodales mauris eu bibendum suscipit. Vivamus sodales dui
 lorem, scelerisque pellentesque diam fermentum sed. Etiam fermentum
 nisl id nisl blandit, sit amet semper erat ultricies. Nulla tincidunt
 nulla metus, eu imperdiet lorem malesuada sagittis. Maecenas accumsan
-risus sed ante eleifend, vitae pretium leo porta. Suspendisse vitae
-eros vitae dui ornare condimentum id sit amet mauris. Etiam tincidunt
-consequat risus, eu posuere mi. Donec ut nunc eu massa porttitor
+
+#+CAPTION: block caption
+#+BEGIN_SRC bash :results raw
+echo "a bash source block"
+
+function hello {
+    echo Hello World!
+}
+
+hello
+#+END_SRC
+
 suscipit nec nec neque. Suspendisse vitae tincidunt justo, sed
 molestie velit. Nullam pellentesque convallis ante, vel posuere libero
 blandit in.

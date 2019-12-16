@@ -1,0 +1,21 @@
+<li class='item'>
+
+  <header class='item-header'>
+    <h3 class='item-title'>
+      <a href='{{ .Permalink | relURL }}'>
+        {{- .Title -}}
+      </a>
+    </h3>
+  </header>
+  <div class='meta'>
+      {{ partial "list/date" . }}
+      {{ range $taxonomy, $pages := .Site.Taxonomies }}
+          {{- if not ( eq $taxonomy "authors" ) -}}
+              {{- if ( index $.Params $taxonomy ) -}}
+                  {{- $.Scratch.Set "taxonomy" $taxonomy -}}
+                  {{- partial "entry/taxonomy-list" $ -}}
+              {{- end -}}
+          {{- end -}}
+      {{ end }}
+  </div>
+</li>
