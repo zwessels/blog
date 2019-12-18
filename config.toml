@@ -1,3 +1,4 @@
+publishDir = "docs"
 baseURL = "http://www.example.com"
 title = "Zak Wessels"
 # for smart copyright line, leave this blank and check [params.copyright]
@@ -5,7 +6,7 @@ copyright = ""
 
 theme = "minimo"
 
-disqusShortname = ""
+disqusShortname = "zakwessels"
 googleAnalytics = ""
 
 Paginate = 50
@@ -80,7 +81,7 @@ linkedin = "muniftanjim"
 twitter = "MunifTanjim"
 
 [params.comments]
-enable = false
+enable = true
 
 # Isso: https://posativ.org/isso/
 [params.comments.isso]
@@ -89,7 +90,7 @@ scriptSrc = "" # "https://isso.example.com/js/embed.min.js"
 dataAttrs = "" # "data-isso='https://isso.example.com' data-isso-require-author='true'"
 
 [params.comments.staticman]
-enable = true
+enable = false
 apiEndpoint = "https://api.staticman.net/v2/entry"
 maxDepth = 2
 username = "MunifTanjim"
@@ -105,12 +106,12 @@ username = "MunifTanjim"
 repository = "minimo"
 
 [params.search]
-client = "fuse" # algolia / fuse / lunr
+client = "algolia" # algolia / fuse / lunr
 
 [params.search.algolia]
-appId = ""
-indexName = ""
-searchApiKey = ""
+appId = "RY5R1GWFI4"
+indexName = "dev_zwessels_blog"
+searchApiKey = "6263162d75a6eabf1514ed148cd1e19f"
 
 [taxonomies]
 author = "authors"
