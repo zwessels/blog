@@ -130,3 +130,19 @@ hrefTargetBlank = true
 lang = "en"
 languageName = "English"
 weight = 1
+
+[menu]
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about hugo"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "/about/"
+    weight = -110
+
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    pre = "<i class='fa fa-heart'></i>"
+    url = "https://zakwessels.com"
+    weight = -110
