@@ -4,7 +4,3 @@
 [submodule "themes/minimo"]
 	path = themes/minimo
 	url = https://github.com/MunifTanjim/minimo
-[submodule "docs"]
-	path = docs
-	url = git@github.com:zwessels/zwessels.git
-	branch = master
