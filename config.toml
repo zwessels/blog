@@ -1,5 +1,5 @@
 publishDir = "docs"
-baseURL = "http://www.example.com"
+baseURL = "https://www.zakwessels.com"
 title = "Zak Wessels"
 # for smart copyright line, leave this blank and check [params.copyright]
 copyright = ""

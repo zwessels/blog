@@ -3,45 +3,53 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://www.example.com/posts/my-first-post/</loc>
+    <loc>https://www.zakwessels.com/posts/my-first-post/</loc>
     <lastmod>2019-12-15T19:51:39+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.example.com/posts/</loc>
+    <loc>https://www.zakwessels.com/posts/</loc>
     <lastmod>2019-12-15T19:51:39+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.example.com/</loc>
+    <loc>https://www.zakwessels.com/</loc>
     <lastmod>2019-12-15T19:51:39+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.example.com/tags/devtools/</loc>
+    <loc>https://www.zakwessels.com/tags/devtools/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.example.com/tags/</loc>
+    <loc>https://www.zakwessels.com/tags/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.example.com/posts/my-second-post/</loc>
+    <loc>https://www.zakwessels.com/posts/my-second-post/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>http://www.example.com/authors/</loc>
+    <loc>https://www.zakwessels.com/authors/</loc>
   </url>
   
   <url>
-    <loc>http://www.example.com/categories/</loc>
+    <loc>https://www.zakwessels.com/categories/</loc>
   </url>
   
   <url>
-    <loc>http://www.example.com/series/</loc>
+    <loc>https://www.zakwessels.com/page/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.zakwessels.com/search/</loc>
+  </url>
+  
+  <url>
+    <loc>https://www.zakwessels.com/series/</loc>
   </url>
   
 </urlset>

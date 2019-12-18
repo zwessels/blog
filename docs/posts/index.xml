@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Zak Wessels</title>
-    <link>http://www.example.com/posts/</link>
+    <link>https://www.zakwessels.com/posts/</link>
     <description>Recent content in Posts on Zak Wessels</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Sun, 15 Dec 2019 19:51:39 +0200</lastBuildDate>
     
-	<atom:link href="http://www.example.com/posts/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://www.zakwessels.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>My First Post</title>
-      <link>http://www.example.com/posts/my-first-post/</link>
+      <link>https://www.zakwessels.com/posts/my-first-post/</link>
       <pubDate>Sun, 15 Dec 2019 19:51:39 +0200</pubDate>
       
-      <guid>http://www.example.com/posts/my-first-post/</guid>
+      <guid>https://www.zakwessels.com/posts/my-first-post/</guid>
       <description>Hello World!</description>
     </item>
     
     <item>
       <title>Text blocks for Ox-hugo Org MOde</title>
-      <link>http://www.example.com/posts/my-second-post/</link>
+      <link>https://www.zakwessels.com/posts/my-second-post/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       
-      <guid>http://www.example.com/posts/my-second-post/</guid>
+      <guid>https://www.zakwessels.com/posts/my-second-post/</guid>
       <description>Lorem Ipsum Boo   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et quam metus. Etiam in iaculis mi, sit amet pretium magna. Donec ut dui mi. Maecenas pharetra sapien nunc, ut mollis enim aliquam quis. Nam at ultricies metus. Nulla tempor augue in vestibulum tristique. Phasellus volutpat pharetra metus quis suscipit. Morbi maximus sem dolor, id accumsan ipsum commodo non.  #!/usr/bin/env bash  cd tmp wget https://github.</description>
     </item>
     
