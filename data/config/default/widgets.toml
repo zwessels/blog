@@ -17,7 +17,7 @@ title = "Search"
 
 [sidebar_menu]
 title = ""
-mirror = ""
+mirror = "main"
 
 [social_menu]
 title = ""
