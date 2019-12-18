@@ -1,0 +1,94 @@
+#+title: Text blocks for Ox-hugo Org MOde
+#+subtitle: Woot
+#+section: posts
+#+tags[]: devtools 
+#+date: 2019-02-28
+#+draft: true
+
+* Lorem Ipsum Boo
+  
+:PROPERTIES:
+:CUSTOM_ID: lorem-ipsum
+:END:
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque et
+quam metus. Etiam in iaculis mi, sit amet pretium magna. Donec ut dui
+mi. Maecenas pharetra sapien nunc, ut mollis enim aliquam quis. Nam at
+ultricies metus. Nulla tempor augue in vestibulum tristique. Phasellus
+volutpat pharetra metus quis suscipit. Morbi maximus sem dolor, id
+accumsan ipsum commodo non.
+
+{{< highlight bash "linenos=false" >}}
+#!/usr/bin/env bash
+
+cd tmp 
+wget https://github.com/adobe-fonts/source-code-pro/archive/2.030R-ro/1.050R-it.zip
+
+if [ ! -d "~/.fonts" ] ; then
+    mkdir ~/.fonts
+fi
+
+if [ ! -d "~/.fonts" ] ; then
+    mkdir ~/.fonts
+fi
+{{< / highlight >}}
+
+{{< highlight java "linenos=false" >}}
+public static void main(String[] args) {
+  try {
+      OutputStream file = new FileOutputStream(new File("C:\\Test.pdf"));
+
+      Document document = new Document();
+      PdfWriter.getInstance(document, file);
+      document.open();
+      document.add(new Paragraph("Hello Kiran"));
+      document.add(new Paragraph(new Date().toString()));
+
+      document.close();
+      file.close();
+
+  } catch (Exception e) {
+
+      e.printStackTrace();
+  }
+}
+{{< / highlight >}}
+
+#+CAPTION: captioned link (image in this case)
+[[https://placekitten.com/200/200#.png]]
+
+#+CAPTION: captioned link (image in this case)
+http://localhost:1313/sample.jpeg
+
+Fusce quam ligula, gravida ac dui venenatis, bibendum commodo
+lorem. Duis id elit turpis. Integer sed diam nibh. Donec tempus
+lacinia odio, a laoreet velit dictum id. Suspendisse efficitur euismod
+nisl tortor convallis ante, ut mollis purus augue ut justo. Praesent
+felis urna, volutpat sit amet posuere dictum, luctus quis nibh. Proin
+et tristique ipsum, in aliquam ante.
+
+#+CAPTION: This is my caption
+#+ATTR_HTML: :class table table-striped table-dark
+| Key | Value                |
+| 1,2 | Jim Butters was here |
+
+Pellentesque eget nisl rhoncus, malesuada justo nec, suscipit
+quam. Nam sodales mauris eu bibendum suscipit. Vivamus sodales dui
+lorem, scelerisque pellentesque diam fermentum sed. Etiam fermentum
+nisl id nisl blandit, sit amet semper erat ultricies. Nulla tincidunt
+nulla metus, eu imperdiet lorem malesuada sagittis. Maecenas accumsan
+
+#+CAPTION: block caption
+#+BEGIN_SRC bash :results raw
+echo "a bash source block"
+
+function hello {
+    echo Hello World!
+}
+
+hello
+#+END_SRC
+
+suscipit nec nec neque. Suspendisse vitae tincidunt justo, sed
+molestie velit. Nullam pellentesque convallis ante, vel posuere libero
+blandit in.
+# a comment forces paragraph break in Org
