@@ -3,7 +3,7 @@
 #+section: posts
 #+tags[]: devtools 
 #+date: 2019-02-28
-#+draft: true
+#+draft: false
 
 * Lorem Ipsum Boo
   
