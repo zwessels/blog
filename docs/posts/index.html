@@ -30,9 +30,21 @@
 <style>
  :root{--color-accent:#342396;}
 
- .list{
-     color: red;
+ .list {
+     font-family: "Lucida Console", Monaco, monospace;
  }
+
+ .sep-after:after, .sep-before:before {
+     border-bottom: none;
+ }
+
+  
+
+ div.meta {
+     white-space: nowrap;
+     text-align: right;
+ }
+
 
  .item-title a {
      color:black;
@@ -139,9 +151,7 @@
   </nav>
 
 </section><section class='widget widget-taxonomy_cloud sep-after'>
-  <header>
-    <h4 class='title widget-title'>Tags</h4>
-  </header>
+  
 
   <div class='container list-container'>
   <ul class='list taxonomy-cloud no-shuffle'><li>
@@ -187,7 +197,7 @@
   <div class='meta'>
       <span>
   <span class='screen-reader-text'>Posted on </span>
-  <time datetime='2019-12-15T19:51:39&#43;02:00'>2019, Dec 15</time>
+  <time datetime='2019-12-15T19:51:39&#43;02:00'>Dec 15, 2019</time>
 </span>
 
       
@@ -205,7 +215,7 @@
   <div class='meta'>
       <span>
   <span class='screen-reader-text'>Posted on </span>
-  <time datetime='2019-02-28T00:00:00Z'>2019, Feb 28</time>
+  <time datetime='2019-02-28T00:00:00Z'>Feb 28, 2019</time>
 </span>
 
       <div class='tags'>

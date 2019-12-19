@@ -30,9 +30,21 @@
 <style>
  :root{--color-accent:#342396;}
 
- .list{
-     color: red;
+ .list {
+     font-family: "Lucida Console", Monaco, monospace;
  }
+
+ .sep-after:after, .sep-before:before {
+     border-bottom: none;
+ }
+
+  
+
+ div.meta {
+     white-space: nowrap;
+     text-align: right;
+ }
+
 
  .item-title a {
      color:black;
@@ -139,9 +151,7 @@
   </nav>
 
 </section><section class='widget widget-taxonomy_cloud sep-after'>
-  <header>
-    <h4 class='title widget-title'>Tags</h4>
-  </header>
+  
 
   <div class='container list-container'>
   <ul class='list taxonomy-cloud no-shuffle'><li>
