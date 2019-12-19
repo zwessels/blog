@@ -1,11 +1,16 @@
 <li class='item'>
 
   <header class='item-header'>
-    <h3 class='item-title'>
+    <h2 class='item-title'>
       <a href='{{ .Permalink | relURL }}'>
         {{- .Title -}}
       </a>
-    </h3>
+    </h2>
+    {{ if .Params.subtitle }}
+    <p class="item-subtitle">
+        {{ .Params.subtitle }}
+    </p>
+    {{ end }}
   </header>
   <div class='meta'>
       {{ partial "list/date" . }}
