@@ -5,19 +5,10 @@
     <link>https://www.zakwessels.com/</link>
     <description>Recent content on Zak Wessels</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sun, 15 Dec 2019 19:51:39 +0200</lastBuildDate>
+    <lastBuildDate>Thu, 28 Feb 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://www.zakwessels.com/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>My First Post</title>
-      <link>https://www.zakwessels.com/posts/my-first-post/</link>
-      <pubDate>Sun, 15 Dec 2019 19:51:39 +0200</pubDate>
-      
-      <guid>https://www.zakwessels.com/posts/my-first-post/</guid>
-      <description>Hello World!</description>
-    </item>
     
     <item>
       <title>Text blocks for Ox-hugo Org MOde</title>
