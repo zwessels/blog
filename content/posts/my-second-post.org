@@ -57,7 +57,7 @@ public static void main(String[] args) {
 [[https://placekitten.com/200/200#.png]]
 
 #+CAPTION: captioned link (image in this case)
-http://localhost:1313/sample.jpeg
+https://zakwessels.com/sample.jpeg
 
 Fusce quam ligula, gravida ac dui venenatis, bibendum commodo
 lorem. Duis id elit turpis. Integer sed diam nibh. Donec tempus
